@@ -3,6 +3,7 @@ h1{
      color: goldenrod;
 }
 body {
+     margin: 0;
      font-family: 'CMU Concrete', sans-serif;
  }
  .name-highlight{
@@ -17,3 +18,48 @@ body {
  .half-width img{
      width: 100%;
  }
+.top-banner{
+     background-image: url(images/top-banner.png);
+     background-repeat: no-repeat;
+}
+section{
+     height: 500px;
+}
+.link-button{
+     text-decoration: none;
+     background-image: linear-gradient(lightblue, white);
+     padding: 10px 20px;
+     text-align: center;
+     color: black;
+     border-radius: 5px;
+     font-weight: 700;
+
+}
+.bottom-banner{
+     background-image: url(images/dream-bg.png);
+     background-repeat: no-repeat;
+     background-position: right;
+}
+.single-experience{
+     box-shadow: 10px 10px 40px gray;
+     border-radius: 5px;
+     height: 60%;
+     background-color: azure;
+}
+.last{
+     color: black;
+     font-size: 40px;
+}
+.experience-area{
+     background-image: url(images/exp-bg.png);
+     background-repeat: no-repeat;
+}
+#exp-sec{
+     border-left: 5px solid blue;
+}
+#exp-sec2{
+     border-left: 5px solid green;
+}
+footer{
+     text-align: center;
+}
